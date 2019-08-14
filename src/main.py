@@ -1,5 +1,6 @@
 from random import randrange
 import json
+import time
 
 # Constants (Add company and type names in these json files)
 NAMES = json.loads(open('names.json').read())
@@ -41,3 +42,6 @@ def create_company(industry):
 
 
 print(create_company(industry))
+print("The program is shutting down in 5 seconds...")
+time.sleep(5)
+exit(1)
