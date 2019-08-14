@@ -1,7 +1,7 @@
 from random import randrange
 import json
 
-# Constants
+# Constants (Add company and type names in these json files)
 NAMES = json.loads(open('names.json').read())
 TYPES = json.loads(open('types.json').read())
 
